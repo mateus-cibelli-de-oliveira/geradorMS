@@ -1,0 +1,107 @@
+h2 {
+  font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+  text-align: center;
+  padding-top: 0px;
+  margin-top: 5px;
+}
+
+.container {
+  text-align: center;
+  display: block;
+  width: 100%;
+  font-family: Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+select {
+  width: 100%;
+  max-width: 200px;
+  padding: 10px;
+  border: 2px solid #4caf50;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  color: #333;
+  font-size: 16px;
+  outline: none;
+  cursor: pointer;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+select:focus {
+  border-color: #66bb6a;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+option {
+  background-color: #fff;
+  color: #333;
+  padding: 5px;
+  font-size: 12px;
+}
+
+option:hover {
+  background-color: #e0e0e0;
+}
+
+.refresh-button {
+  margin-top: 155px;
+  padding: 18px 25px;
+  font-size: 20px;
+  color: white;
+  background-color: #ff7300;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+}
+
+.refresh-button:hover {
+  background-color: #e06600;
+}
+
+.refresh-button:active {
+  background-color: #c95500;
+}
+
+.numbers-section {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Tela maior que 1200px (desktop grande) */
+@media (min-width: 1200px) {
+  .container-min-1,
+  .container-min-2 {
+    transform: scale(0.8);
+    transform-origin: center;
+    padding: 5px;
+    margin: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+}
+
+/* Entre 768px e 1199px (tablets e laptops pequenos) */
+@media (max-width: 1199px) and (min-width: 768px) {
+  .container-min-1,
+  .container-min-2 {
+    transform: scale(0.9);
+    padding: 8px;
+    margin: 4px;
+  }
+}
+
+/* Menor que 768px (smartphones) */
+@media (max-width: 767px) {
+  .container-min-1,
+  .container-min-2 {
+    transform: scale(0.7);
+    padding: 5px;
+    margin: 2px;
+  }
+}

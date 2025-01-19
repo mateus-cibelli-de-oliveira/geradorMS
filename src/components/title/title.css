@@ -1,0 +1,11 @@
+h1 {
+  font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+  font-size: 45px;
+  color: #ffffff;
+  background-color: #209869;
+  padding: 10px;
+  margin-top: 0px;
+  text-align: center;
+  text-transform: uppercase;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}

@@ -1,0 +1,52 @@
+.number-span {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 8px;
+  margin-top: 0px;
+  margin-left: 10px;
+  width: 50px;
+  height: 50px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 50%;
+  font-size: 25px;
+  font-weight: bold;
+  border: 2px solid #0056b3;
+}
+
+.generator {
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 28%;
+  left: 50%;
+  display: block;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+/* Tela maior que 1200px (desktop grande) */
+@media (min-width: 1200px) {
+  .generator {
+    top: 22%;
+    width: 80%; 
+  }
+}
+
+/* Entre 768px e 1199px (tablets e laptops pequenos) */
+@media (max-width: 1199px) and (min-width: 768px) {
+  .generator {
+    top: 28%;
+    width: 90%;
+  }
+}
+
+/* Menor que 768px (smartphones) */
+@media (max-width: 767px) {
+  .generator {
+    top: 30%; 
+    width: 100%; 
+    transform: translate(-50%, -40%); 
+  }
+}
