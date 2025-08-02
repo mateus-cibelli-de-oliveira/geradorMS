@@ -7,7 +7,7 @@ Aplicação simples feita com **React 19** que gera combinações aleatórias de
 ## ✨ Funcionalidades
 
 - Geração de números aleatórios para Mega-Sena.
-- Variação de quantidade de números (ex: 6 a 20 números).
+- Variação de quantidade de números (ex: 6 à 20 números).
 - Interface responsiva e interativa.
 
 ---
@@ -21,7 +21,7 @@ Aplicação simples feita com **React 19** que gera combinações aleatórias de
 
 ## 📗 Versão do Node utilizada
 
-Node.js **v24.4.1**
+Node.js **v20.18.0**
 
 ---
 
