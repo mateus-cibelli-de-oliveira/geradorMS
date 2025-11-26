@@ -1,11 +1,10 @@
-import React from 'react'
-import gerarNumeros from './generate'
-import './generator.css'
+import gerarNumeros from "./generate";
+import "./generator.css";
 
 const Numbers = ({ quantidade }) => {
-  if (!quantidade) return null
+  if (!quantidade) return null;
 
-  const numbers = gerarNumeros(quantidade)
+  const numbers = gerarNumeros(quantidade);
 
   return (
     <div className="generator">
@@ -15,7 +14,7 @@ const Numbers = ({ quantidade }) => {
         </span>
       ))}
     </div>
-  )
+  );
 }
 
-export default Numbers
+export default Numbers;

@@ -1,6 +1,6 @@
-import Title from './components/title/index';
-import PerguntaComOpcoes from './components/app-content/index';
-import './App.css';
+import Title from "./components/title/index";
+import PerguntaComOpcoes from "./components/app-content/index";
+import "./App.css";
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
       <Title />
       <PerguntaComOpcoes />
     </div>
-  )
+  );
 }
 
 export default App;

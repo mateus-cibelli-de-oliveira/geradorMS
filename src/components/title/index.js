@@ -1,11 +1,7 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
-import './title.css'
+import "./title.css";
 
 function Title() {
-  return (
-    <h1>Gerador Mega Sena</h1>
-  )
+  return <h1>Gerador Mega Sena</h1>;
 }
 
-export default Title
+export default Title;
